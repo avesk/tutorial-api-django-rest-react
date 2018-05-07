@@ -5,7 +5,8 @@ import Table from "./Table";
 
 const App = () => (
     <DataProvider endpoint="api/lead/"
-    render={data => <Table data={data} />} />
+    render={data => <Table data={data} />}
+    />
 );
 
 const wrapper = document.getElementById("app");
