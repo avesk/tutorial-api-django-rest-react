@@ -25,7 +25,9 @@ SECRET_KEY = 'vguwwz#49p5_&%1!4wv71wcnl!wo@i6@0(m8f^rb=ei#uudm9+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.1.17'
+]
 
 
 # Application definition
@@ -36,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles'i,
-    'leads',
+    'django.contrib.staticfiles',
+    'leads', #add the leads package
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
