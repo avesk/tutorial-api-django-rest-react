@@ -11,7 +11,7 @@ const Table = ({data}) =>
         <div className="column">
             <h2 className="subtitle">
                 Showing <strong>{data.length} items</strong>
-            <h2>
+            </h2>
             <table>
                 <thead>
                     <tr>
