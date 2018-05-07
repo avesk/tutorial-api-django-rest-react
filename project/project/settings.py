@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'leads', #add the leads package
     'rest_framework',
+    'frontend'
 ]
 
 MIDDLEWARE = [
